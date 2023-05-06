@@ -1,0 +1,20 @@
+{
+  "name": "ma_yuankai_cs554_lab2",
+  "version": "1.0.0",
+  "description": "This is a program that practice my usage of redis and async / await together. It will create a Marvel API Express Server that caches the results in Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "author": "Yuankai Ma 10479338",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+		"express": "^4.18.1",
+		"express-handlebars": "^6.0.6",
+		"redis": "^4.3.1",
+    "flat": "^5.0.2",
+    "blueimp-md5": "^2.19.0"
+  }
+}
